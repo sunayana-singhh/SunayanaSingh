@@ -1,0 +1,367 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4ebe2; /* Light beige */
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .logo span {
+    color: #007bff; /* Blue */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    margin: 4rem 6%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Section */
+.card {
+    background-color: #f9f3ec;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 3rem;
+    width: 280px;
+}
+
+.about-img img {
+    width: 90px;            /* Adjust the width of your image */
+    height: 90px;           /* Keep the height same for a square image */
+    object-fit: cover;      /* Crop the image to fill the circle */
+    border-radius: 50%;     /* Make the image round */
+    margin-bottom: 1.5rem;  /* Add spacing below the image */
+    
+}
+
+.profile-img {
+    width: 220px;            /* Adjust the width of your image */
+    height: 220px;           /* Keep the height same for a square image */
+    object-fit: cover;      /* Crop the image to fill the circle */
+    border-radius: 50%;     /* Make the image round */
+    margin-bottom: 1rem;    /* Optional: Add spacing below the image */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;  /* Beige background */
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;  /* Space out the items with more space between */
+    align-items: center;
+    width: 100%;
+    gap: 4rem;  /* Adjust this value to increase/decrease spacing between items */
+}
+
+
+.footer-item {
+    padding: 0.5rem;
+    text-align: center;  /* Center text inside each item */
+}
+
+.footer-item h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    font-size: 2rem;  /* Increase the size of the icons */
+    margin: 0 10px;   /* Add spacing between icons */
+    color: white;     /* Ensure the icons are visible on a light background */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #333;  /* Change color when hovering */
+}
+
+
+
+
+
+
+.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.role, .college {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+/* Right Section */
+.info h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.info {
+    max-width: 650px; /* Keep this for layout */
+    padding: 2rem;
+    text-align: center;
+    background-color: transparent; /* Removed the yellow background */
+    border-radius: 10px; /* Optional: Keep or remove this depending on your design */
+    box-shadow: none; /* Remove the shadow if not needed */
+}
+
+
+
+
+.description {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+}
+
+.bio {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.btn.blue {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn.white {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.btn.white:hover {
+    background-color: #f4f4f4;
+}
+
+.btn.blue:hover {
+    background-color: #0056b3;
+}
+
+ /* styling the resume page */
+
+/* Resume Page Specific Styles */
+section.resume {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* Contact Information */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #4e4e4e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #4e90d3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Skills and Experience Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Buttons (For Resume download, etc.) */
+button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Styling for the Resume Box */
+.view-resume-section {
+    text-align: center;
+    margin-top: 50px; /* Space from the top of the page or header */
+}
+
+.resume-box {
+    display: inline-block;
+    padding: 30px;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the box */
+}
+
+.view-resume-btn {
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.view-resume-btn:hover {
+    background-color: brown;
+}
+
+/* Styling for the description text below the button */
+.resume-description {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555; /* Dark gray color */
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+
+button:hover {
+    background-color: brown;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section.resume {
+        width: 90%;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}
